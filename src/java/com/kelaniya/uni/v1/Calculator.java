@@ -7,7 +7,7 @@ public class Calculator {
         System.out.print("Enter operator(sum, sub, mul): ");
         UserInput input = new UserInput();
 
-        int result;
+        double result;
         Summation sum = new Summation();
         Subtraction sub = new Subtraction();
         Multiplication mul = new Multiplication();

@@ -8,7 +8,7 @@ public class Summation {
     public Summation() throws IOException {
     }
 
-    public int Summation() throws IOException {
+    public double Summation() throws IOException {
             return read.numbers.get(0) + read.numbers.get(1);
     }
 }

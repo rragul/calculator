@@ -8,7 +8,7 @@ public class Subtraction {
     public Subtraction() throws IOException {
     }
 
-    public int Subtraction() throws IOException {
+    public double Subtraction() throws IOException {
         return read.numbers.get(0) - read.numbers.get(1);
     }
 }

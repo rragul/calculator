@@ -11,12 +11,12 @@ public class NumbersReader {
     Path filePath = Paths.get("src/numbers.txt");
     Scanner scanner = new Scanner(filePath);
 
-    List<Integer> numbers = new ArrayList<Integer>();
+    List<Double> numbers = new ArrayList<>();
 
     public NumbersReader() throws IOException {
         while (scanner.hasNext()) {
             if(scanner.hasNext()){
-                numbers.add(scanner.nextInt());
+                numbers.add(scanner.nextDouble());
             }else{
                 scanner.next();
             }

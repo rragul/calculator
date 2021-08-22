@@ -8,7 +8,7 @@ public class Multiplication {
     public Multiplication() throws IOException {
     }
 
-    public int Multiplication() throws IOException {
+    public double Multiplication() throws IOException {
         return read.numbers.get(0) * read.numbers.get(1);
     }
 }
