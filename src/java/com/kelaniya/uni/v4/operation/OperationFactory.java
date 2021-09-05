@@ -10,8 +10,11 @@ public class OperationFactory {
             operation = new AddOperation();
         } else if(operator.equals("sub")){
             operation = new SubOperation();
-        } else {
+        } else if(operator.equals("mul")){
             operation = new MulOperation();
+        }else if(operator.equals("div"))
+        {
+            operation = new DivOperation();
         }
         return operation;
     }
