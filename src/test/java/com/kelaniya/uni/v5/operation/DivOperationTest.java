@@ -18,10 +18,10 @@ public class DivOperationTest {
 
     @Test
     public void should_not_divide_by_zero() throws InvalidOperationException {
-
         DivOperation divOperation = new DivOperation();
-        Double result = divOperation.execute(new Double[]{6.0, 0.0});
-
+        assertThrows(InvalidOperationException.class, () ->{
+            divOperation.execute(new Double[]{6.0, 0.0});
+        });
     }
 
 }
