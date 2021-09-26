@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
         Inputs inputs = new CommandLineInputs(args);
         NumberRepository numberRepository = new FileNumberRepository();
